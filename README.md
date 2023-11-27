@@ -262,14 +262,14 @@ Star走势图
 
 #### 支持库
 
-|  数据库   |  支持   |
-| --- | --- |
-|   MySQL   |  √   |
-|  Oracle11g   |  √   |
-|  Sqlserver2017   |  √   |
-|   PostgreSQL   |  √   |
-|   MariaDB   |  √   |
-|   达梦、人大金仓   |  √   |
+| 数据库           |  支持   |
+|---------------| --- |
+| MySQL         |  √   |
+| Oracle11g     |  √   |
+| SqlServer2017 |  √   |
+| PostgreSQL    |  √   |
+| MariaDB       |  √   |
+| 达梦、人大金仓       |  √   |
 
 
 
