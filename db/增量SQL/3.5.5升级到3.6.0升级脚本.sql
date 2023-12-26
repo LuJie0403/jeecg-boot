@@ -21,8 +21,6 @@ ADD INDEX idx_sup_user_position_id(user_id, position_id) USING BTREE;
 -- 删除用户表的职位
 ALTER TABLE sys_user DROP COLUMN post;
 
-
-
 -- 用户租户关系表修改索引
 ALTER TABLE `sys_user_tenant` 
 DROP INDEX `uniq_sut_user_rel_tenant`,

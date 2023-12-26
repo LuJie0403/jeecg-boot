@@ -229,7 +229,7 @@ public class ShiroConfig {
      * @return
      */
     public RedisCacheManager redisCacheManager() {
-        log.info("===============(1)创建缓存管理器RedisCacheManager");
+        log.info("创建缓存管理器RedisCacheManager");
         RedisCacheManager redisCacheManager = new RedisCacheManager();
         redisCacheManager.setRedisManager(redisManager());
         //redis中针对不同用户缓存(此处的id需要对应user实体中的id字段,用于唯一标识)
@@ -247,7 +247,7 @@ public class ShiroConfig {
      */
     @Bean
     public IRedisManager redisManager() {
-        log.info("===============(2)创建RedisManager,连接Redis..");
+        log.info("创建RedisManager,连接Redis...");
         IRedisManager manager;
         // redis 单机支持，在集群为空，或者集群无机器时候使用 add by jzyadmin@163.com
         if (lettuceConnectionFactory.getClusterConfiguration() == null || lettuceConnectionFactory.getClusterConfiguration().getClusterNodes().isEmpty()) {
